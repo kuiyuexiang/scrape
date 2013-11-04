@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+.hide{
+    display: none;
+}
+
+#wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: white;
+}
+
+#output{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    .board{
+        position: relative;
+        width: 300px;
+        height: 200px;
+        p{
+            width: 300px;
+            height: 200px;
+            line-height: 200px;
+            font-size: 50px;
+            margin: 0;
+        }
+        canvas{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+        }
+    }
+
+
+}
